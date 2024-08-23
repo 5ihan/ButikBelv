@@ -10,10 +10,7 @@ class WhatsAppController extends Controller
 {
 public function sendWhatsAppMessage(Request $request)
 {
-// Your Twilio account credentials
-$accountSid = '';
-$authToken = '';
-$twilioNumber = '+16184765707';
+
 
 // Create a new Twilio client
 $client = new Client($accountSid, $authToken);
